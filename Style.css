@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  padding: 40px 20px;
+  background: #1f1f1f;
+  box-shadow: 0 2px 5px #000;
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+  color: #00ffcc;
+}
+
+.header p {
+  font-size: 18px;
+  color: #bbbbbb;
+}
+
+.auth {
+  margin-top: 50px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #00cc99;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #00a67e;
+}
+
+.games {
+  margin-top: 50px;
+}
+
+a {
+  color: #00ccff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
